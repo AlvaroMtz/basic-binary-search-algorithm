@@ -1,8 +1,8 @@
 const array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 let low, high, mid, estimated, bucle
 
-const binary_search_algorithm = (arr, element, fist = true) => {
-  if (fist === true){
+const binary_search_algorithm = (arr, element, first = true) => {
+  if (first === true){
     low = 0
     high = arr.length
     bucle = 0
